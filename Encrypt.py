@@ -31,4 +31,17 @@ def nohaksheer(x):
         else:
             novowels = novowels + y
     return novowels
-print(nohaksheer('Computer Science Makes the World go round but it doesn\'t make the world round itself!'))
+#print(nohaksheer('Computer Science Makes the World go round but it doesn\'t make the world round itself!'))
+
+
+
+"""Write an encryption code that you make up and run it for the variable NoVowels"""
+def hakrssucc(string):
+    newstring = ""
+    for ch in string:
+        a = ord(ch)
+        a = a + 8
+        newstring = newstring + chr(a)
+    return newstring
+
+print (hakrssucc("Computer Science Makes the World go round but it doesn't make the world round itself!"))
