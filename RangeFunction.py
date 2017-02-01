@@ -7,6 +7,12 @@ def heck(x):
 print(heck(41))
 
 """Repeat the exercise but count by 5's"""
+def darn(x):
+    while x > 1:
+        x = x - 5
+        print (x)
+
+print(darn(40))
 
 
 
