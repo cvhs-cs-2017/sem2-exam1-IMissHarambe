@@ -1,6 +1,9 @@
 """Define a function that will take a parameter, n, and triple it and return
 the result"""
-
+def triple(x):
+    y = x*3
+    return y
+print(triple(10))    
 
 
 
