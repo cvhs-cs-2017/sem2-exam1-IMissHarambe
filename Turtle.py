@@ -14,6 +14,8 @@ def threeDcube():
     weenr.right(90)
     weenr.forward(50)
     weenr.goto(75,-25)
+    weenr.goto(25,-25)
+    weenr.goto(0,-50)
 
 threeDcube()
 
